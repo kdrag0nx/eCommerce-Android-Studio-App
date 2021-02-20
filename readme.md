@@ -1,4 +1,4 @@
-# [Part 1 : Creating Splash Screen for our App and starting with our Project](https://youtu.be/y6O7-H2OVXY, Part1)
+# [Part 1 : Creating Splash Screen for our App and starting with our Project](https://youtu.be/y6O7-H2OVXY, "Part1")
 
 **Create New Project**
 ***
