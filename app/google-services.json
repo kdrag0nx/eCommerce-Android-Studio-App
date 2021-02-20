@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "823696834258",
+    "project_id": "amit-ecom-app",
+    "storage_bucket": "amit-ecom-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823696834258:android:83307b1f85c4a9d954f70b",
+        "android_client_info": {
+          "package_name": "com.aips.amit.amite_commerceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823696834258-8sk701mrg5j3bv9cc3uci4ob3uc0l91f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Ep2kStmHgGQSl0PpQ-w-N9gq6IuS9yU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823696834258-8sk701mrg5j3bv9cc3uci4ob3uc0l91f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

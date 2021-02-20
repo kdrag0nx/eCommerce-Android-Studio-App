@@ -7,11 +7,12 @@
     tools:context=".MainActivity">
 
 
-    <RelativeLayout
+        <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="194dp"
+        android:id="@+id/register_frame_layout"
         tools:layout_editor_absoluteY="306dp">
 
-    </RelativeLayout>
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
