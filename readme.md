@@ -1,4 +1,4 @@
-# Part 1 : [Creating Splash Screen for our App and starting with our Project]()
+# Part 1 : [Creating Splash Screen for our App and starting with our Project](https://youtu.be/y6O7-H2OVXY "Part1")
 
 **Create New Project**
 ***
@@ -94,11 +94,16 @@ Step 5: Coming to `AndroidManifest.xml`
 
 ‎‎‎  ‎ ‎‎   ‎ ‎  ‎‎‎‎‎‎‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎ ***-------------------------- <ins>PART  1</ins> --------------------------***
 
-# Part 2 :[ Designing our Login and Register Fragments]()
+
+***
+***
+***
+
+# Part 2 : [Designing our Login and Register Fragments]()
 
 |Login Fragment |Register Fragment|
 |---|---|
-|![Image Source]()|![ImageSource]()   |
+|![Image Source](https://github.com/amitkv1212/eCommerce-Android-Studio-App/blob/main/ScreenShots/Login%20Fragement.jpg?raw=true=10*10)|![ImageSource](https://github.com/amitkv1212/eCommerce-Android-Studio-App/blob/main/ScreenShots/Register%20Fragement.jpg?raw=true)   |
 
 
 Note here : **`You can copy the Atrributes like width or height , copying the whole code may result into error as the id's defined in this project may vary in your case unless you define the same id's in your case`**
@@ -156,7 +161,7 @@ Now define two Editext as we are using email and password field where the user w
 
 ##   ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎ ‎‎‎  ‎ ‎‎   <ins> _*‎SignInFragment Designing Part*_</ins>
 
-**[Editext for Email id]():**
+**Editext for Email id**:
 ```
 <EditText
             android:id="@+id/sign_in_email"
@@ -178,7 +183,7 @@ Now define two Editext as we are using email and password field where the user w
             app:layout_constraintTop_toBottomOf="@+id/imageView" />
 ```
 
-& **[EditText for Password:]()**
+& **EditText for Password:**
 ```
 <EditText
             android:id="@+id/sign_in_password"
@@ -199,7 +204,7 @@ Now define two Editext as we are using email and password field where the user w
             app:layout_constraintTop_toBottomOf="@+id/sign_in_email" />
 ```
 
-**[Creating a Forget Password TextView]()**
+**Creating a Forget Password TextView**
 ```
 <TextView
             android:id="@+id/sign_in_forget_password"
@@ -213,7 +218,7 @@ Now define two Editext as we are using email and password field where the user w
             app:layout_constraintTop_toBottomOf="@+id/sign_in_password" />
 ```
 
-now **[Define a sign in button :]()**
+now **Define a sign in button :**
 
 ```
 <Button
@@ -234,9 +239,9 @@ now **[Define a sign in button :]()**
             app:layout_constraintTop_toBottomOf="@+id/sign_in_password" />
 ```
 
-***Create a [`divider`]() and a text View [`Or`]()***
+***Create a `divider` and a text View `Or`***
 
-**[Create `DontHave an account ` TextView]()**
+Create `DontHave an account ` TextView
 ```
 <TextView
             android:id="@+id/tv_dont_have_an_account"
@@ -251,7 +256,7 @@ now **[Define a sign in button :]()**
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 ```
 
-## ‎‎‎‎‎‎‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎ <ins >_*[SignUpFragement Designing]()*_</ins>
+## ‎‎‎‎‎‎‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎ <ins >_*SignUpFragement Designing*_</ins>
 
 **EditText for Email id**
 
@@ -276,7 +281,7 @@ now **[Define a sign in button :]()**
             app:layout_constraintTop_toBottomOf="@+id/imageView_sign_up" />
 ```
 
-**[EditText for Full Name]()**
+**EditText for Full Name**
 ```
 <EditText
             android:id="@+id/sign_up_full_name"
@@ -296,7 +301,7 @@ now **[Define a sign in button :]()**
             app:layout_constraintTop_toBottomOf="@+id/sign_up_email" />
 ```
 
-**[EditText for password]()**
+**EditText for password**
 ```
 <EditText
             android:id="@+id/sign_up_password"
@@ -318,7 +323,7 @@ now **[Define a sign in button :]()**
             app:layout_constraintTop_toBottomOf="@+id/sign_up_email" />
 ```
 
-**[Editext for Confirm Password]()**
+**Editext for Confirm Password**
 ```
 <EditText
             android:id="@+id/sign_up_cnf_password"
@@ -338,7 +343,7 @@ now **[Define a sign in button :]()**
             app:layout_constraintTop_toBottomOf="@+id/sign_up_password" />
 ```
 
-**[Button for Sign Up]()**
+**Button for Sign Up**
 ```
 <Button
             android:id="@+id/sign_up_btn"
@@ -358,7 +363,7 @@ now **[Define a sign in button :]()**
             app:layout_constraintTop_toBottomOf="@+id/sign_up_password" />
 ```
 
-**[Already Have an Account TextView]()**
+**Already Have an Account TextView**
 ```
 <TextView
             android:id="@+id/tv_already_have_an_account"
@@ -373,4 +378,9 @@ now **[Define a sign in button :]()**
             app:layout_constraintTop_toBottomOf="@+id/textView92" />
 ```
 
- ‎‎‎‎‎‎‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎‎‎‎‎‎‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎‎‎‎‎‎‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎ ***-------------------<ins>PART - II</ins> ------------------***  ‎‎‎‎‎‎‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎‎‎‎‎‎‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎
+ ‎‎‎‎‎‎‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎‎‎‎‎‎‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎‎‎‎‎‎‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎ ***-------------------<ins>PART - II</ins> ------------------***  ‎‎‎‎‎‎‎  ‎ ‎‎‎  ‎ ‎‎
+
+ ***
+ ***
+***
+  ‎ ‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎‎‎‎‎‎‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎  ‎ ‎‎‎  ‎ ‎‎   ‎ ‎
