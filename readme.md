@@ -387,7 +387,7 @@ Create `DontHave an account ` TextView
 ***
 
 
-  # PART 3
+  # [PART 3](https://youtu.be/huLq_0DJdoA "part 3")
   - Now after degigning Fragments we will come back to `activity main.xml` and put
  `Frame layout` inside of `Constraint layout`with attributes as follows:
 
