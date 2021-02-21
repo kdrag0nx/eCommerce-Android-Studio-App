@@ -99,7 +99,7 @@ Step 5: Coming to `AndroidManifest.xml`
 ***
 ***
 
-# Part 2 : [Designing our Login and Register Fragments]()
+# Part 2 : [Designing our Login and Register Fragments](https://youtu.be/8vcWpJNnz40 "Part 2")
 
 |<ins>Login Fragment |<ins>Register Fragment|
 |---|---|
