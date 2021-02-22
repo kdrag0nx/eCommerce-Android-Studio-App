@@ -1,3 +1,5 @@
+# GET PARTWISE README.md FILES[ HERE](https://github.com/amitkv1212/eCommerce-Android-Studio-App/tree/main/partwise%20-%20readmes "partwise readmes") 
+
 # Part 1 : [Creating Splash Screen for our App and starting with our Project](https://youtu.be/y6O7-H2OVXY "Part1")
 
 **Create New Project**
@@ -385,7 +387,7 @@ Create `DontHave an account ` TextView
 ***
 
 
-  # PART 3
+  # [PART 3](https://youtu.be/huLq_0DJdoA "part 3")
   - Now after degigning Fragments we will come back to `activity main.xml` and put
  `Frame layout` inside of `Constraint layout`with attributes as follows:
 

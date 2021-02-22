@@ -1,5 +1,5 @@
 
-  # PART 3
+  # PART 3 :[How to display Fragments in MainActivity.java file in Android Studio(Part 3 )](https://youtu.be/huLq_0DJdoA "part3")
   - Now after degigning Fragments we will come back to `activity main.xml` and put
  `Frame layout` inside of `Constraint layout`with attributes as follows:
 
