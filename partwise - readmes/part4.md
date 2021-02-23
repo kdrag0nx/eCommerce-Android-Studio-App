@@ -1,4 +1,4 @@
-# Part 4 : [Adding Firebase to Our App in Android Studio](https:google.com)
+# Part 4 : [Adding Firebase to Our App in Android Studio](https://youtu.be/r12JRZmTxyA)
 - Go to [FirebaseConsole](https://console.firebase.google.com/u/0/?pli=1) and if hadn't signed in , first sign in to `Google` and then proceed with the above link
 
 ***
