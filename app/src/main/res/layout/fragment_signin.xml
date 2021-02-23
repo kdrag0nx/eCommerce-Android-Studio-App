@@ -90,6 +90,7 @@
             android:layout_marginEnd="30dp"
             android:background="@color/CCCC00"
             android:text="Sign in"
+            android:enabled="false"
             android:textAllCaps="false"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"

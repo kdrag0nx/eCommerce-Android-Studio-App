@@ -9,7 +9,9 @@
         android:roundIcon="@drawable/carts"
         android:supportsRtl="true"
         android:theme="@style/Theme.AmitECommerceApp">
-        <activity android:name=".SplashActivity"
+        <activity android:name=".HomeActivity"></activity>
+        <activity
+            android:name=".SplashActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
