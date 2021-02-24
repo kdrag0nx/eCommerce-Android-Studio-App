@@ -1183,7 +1183,7 @@ public class SignUpFragment extends Fragment {
    ---
    ‎ ‎    ‎   ‎ ‎    ‎   ‎ ‎    ‎   ‎ ‎    ‎    ‎    ‎ ‎    ‎   ‎ ‎    ‎   ‎ ‎    ‎   ‎ ‎    ‎    ‎    ‎ ‎    ‎   ‎ ‎    ‎   ‎ ‎    ‎   ‎ ‎    ‎        ***-------------------<ins>PART - V</ins> ------------------***
    
-   # Part - 6
+   # Part - 6 : [](https://youtu.be/-TqxOWv0qJ4 "Part 6")
 ***
 
 In this video we will verify the user entered `email` and also we will match the `passwords` entered in `password` and `confirm password` field , not only that we will also see **how we can register user in Firebase using firebase auth and create their account**.
