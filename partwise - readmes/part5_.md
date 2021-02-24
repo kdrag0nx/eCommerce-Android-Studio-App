@@ -1,4 +1,4 @@
-# PART 5 : [COMPLETING WITH REGISTERATION PROCESS]()
+# PART 5 : [COMPLETING WITH REGISTERATION PROCESS](https://youtu.be/olw9sGE0AGo)
 
 In this video we will verify the user entered `email` with emailPattern and also we will match the `passwords` entered in `password` and `confirm password`with minumum of 8 characters field , not only that we will also see **how we can register user in Firebase using firebase auth and create their account**.
 ***
