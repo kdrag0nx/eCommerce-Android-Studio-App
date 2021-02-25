@@ -1,4 +1,4 @@
-# GET PARTWISE README.md FILES[ HERE](https://github.com/amitkv1212/eCommerce-Android-Studio-App/tree/main/partwise%20-%20readmes "partwise readmes")
+# GET PARTWISE README.md FILES [HERE](https://github.com/amitkv1212/eCommerce-Android-Studio-App/tree/main/partwise%20-%20readmes "partwise readmes")
 
 # Part 1 : [Creating Splash Screen for our App and starting with our Project](https://youtu.be/y6O7-H2OVXY "Part1")
 
