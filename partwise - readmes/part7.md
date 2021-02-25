@@ -1,4 +1,4 @@
-# Part 7 : [Setting Up the `LoginFragment.java` using `FirebaseAuth`](https://youtu.be/9jt4Lf2B0I8 "part 7)
+# Part 7 : [Setting Up the `LoginFragment.java` using `FirebaseAuth`](https://youtu.be/9jt4Lf2B0I8 "part 7")
 **Part 1**: Let's start with assigning the `EditText`, `Sign in Button`, `  ProgressBar` and `Close Button` values in `SignInFragment.java`
 ```
 private EditText email, password;
