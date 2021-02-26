@@ -1816,7 +1816,7 @@ Overall `SignInFragment.xml`:
 </FrameLayout>
 ```
 
-# Part 8 : [Designing of the `forget_password` fragment:](https://youtu.be/p_HcxjicxPg "part 8")
+# Part 8 : [Sending user password reset mail using FirebaseAuth](https://youtu.be/p_HcxjicxPg "part 8")
 Xml Include:
 ```
 <?xml version="1.0" encoding="utf-8"?>
