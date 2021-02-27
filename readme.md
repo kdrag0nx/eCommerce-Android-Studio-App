@@ -2110,5 +2110,51 @@ private void sendUserToLoginFragment(Fragment fragment) {
 }
 
 ```
+# Part 9: [Fixing Up the errors, setting up the icons, & fixing up the screenOrientation issue](https://youtu.be/-ce7ydTkZrA "Part 9 ")
+
+Step 1: Setting up the icon
+
+Go to Mainfest.xml and loook for icon in the 5th or 6th line of the code :
+```
+android:icon="@drawable/carts"
+android:roundIcon="@drawable/carts"
+```
+
+- Step 2 : Restricting the user to stay in Potrait Mode:
+>android:screenOrientation="portrait"
+Declare this line after each activity defined
+
+- Step 3 : Configuring the back Button:
+
+**1.)** Coming to `MainActivity.java` and create a new Method:
+```
+@Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            if (checkforForgetpasswordFragments) {
+            }
+            setFragemet(new SigninFragment());
+            return false;
+        }
+        return super.onKeyDown(keyCode, event);
+    }
+```
+
+- Coming to SignUpFragmemnt.java
+- Copy the lines
+```
+private void setFragemet(Fragment fragemet) {
+        FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(parentFrameLayout.getId(), fragemet);
+        fragmentTransaction.setCustomAnimations(R.anim.slide_from_left, R.anim.slideout_from_right);
+        fragmentTransaction.commit();
+    }
+```
+
+  Define the already present `setFragement()` method as `setParentFragement()`
+
+  Coming to `SigninFragment.java`:
+  inside forgetPassword click listener:
+  > checkforForgetpasswordFragments = true;
 
 
