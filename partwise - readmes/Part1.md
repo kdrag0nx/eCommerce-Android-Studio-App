@@ -44,14 +44,21 @@ Step 4:Come to `SplashActivity.java` and we will use `Handler Method` for settin
 
 ***Go to `OnCreate Method` and declare as follows***:
 
->new Handler().postDelayed(new Runnable() {
->@Override
->            public void run() {
->                Intent i = new Intent(SplashActivity.this, MainActivity.class);
->                startActivity(i);
->                finish();
->            }
->        },3000);
+```
+        new Handler().postDelayed(new Runnable() {
+
+
+            @Override
+            public void run() {
+                // This method will be executed once the timer is over
+                Intent i = new Intent(SplashActivity.this, MainActivity.class);
+                startActivity(i);
+                finish();
+            }
+        }, 5000);
+    }
+}
+```
 
 **Note**: _3000 is the time in miliseconds which corresponds to 3 sec_
 
